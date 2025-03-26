@@ -8,12 +8,15 @@ export default function GlobalStyle() {
         "*": {
           boxSizing: "border-box",
           // fontFamily: "Pretendard-Regular",
+          fontFamily: '"Raleway", sans-serif',
+          fontWeight: "500",
         },
         html: {
           margin: 0,
           padding: 0,
           width: "100%",
           height: "100%",
+          fontSize: "16px",
           //WebkitOverflowScrolling: "touch",
         },
         body: {
