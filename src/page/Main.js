@@ -6,13 +6,20 @@ import Dashboard from "../components/Dashboard";
 import Feeds from "../components/Feeds";
 import Stats from "../components/Stats";
 import Countries from "../components/Countries";
+import Users from "../components/Users";
 
 function Main() {
   return (
     <>
       <Vertical sx={{ height: "100vh" }}>
         <Header />
-        <Horizontal sx={{ height: "100%", backgroundColor: "primary.gray" }}>
+        <Horizontal
+          sx={{
+            height: "100%",
+            backgroundColor: "primary.gray",
+            paddingTop: "43px",
+          }}
+        >
           <Menu />
           <Vertical
             sx={{
@@ -25,6 +32,7 @@ function Main() {
             <Feeds />
             <Stats />
             <Countries />
+            <Users />
           </Vertical>
         </Horizontal>
       </Vertical>

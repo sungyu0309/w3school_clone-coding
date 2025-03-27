@@ -10,8 +10,7 @@ export default function Menu() {
     <Vertical
       sx={{
         width: "300px",
-        height: "100%",
-        overflow: "scroll",
+        height: "calc(100vh - 43px)",
         backgroundColor: "primary.white",
         display: { md: "flex", xs: "none" },
       }}
