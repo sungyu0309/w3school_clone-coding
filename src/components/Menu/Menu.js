@@ -12,6 +12,8 @@ export default function Menu() {
         width: "300px",
         height: "100%",
         overflow: "scroll",
+        backgroundColor: "primary.color1",
+        display: { lg: "flex", xs: "none" },
       }}
     >
       <Grid

@@ -9,8 +9,9 @@ export default function ThemeProvider({ children }) {
       primary: {
         main: "#f44336",
         color0: "black",
-        color1: "#2196F3",
-        color2: "#d3d3d3",
+        color1: "white",
+        color2: "#2196F3",
+        color3: "#f1f1f1",
       },
     },
   });
