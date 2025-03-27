@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Dashboard from "../components/Dashboard";
 import Feeds from "../components/Feeds";
 import Stats from "../components/Stats";
+import Countries from "../components/Countries";
 
 function Main() {
   return (
@@ -23,6 +24,7 @@ function Main() {
             <Dashboard />
             <Feeds />
             <Stats />
+            <Countries />
           </Vertical>
         </Horizontal>
       </Vertical>
