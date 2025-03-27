@@ -8,10 +8,14 @@ export default function ThemeProvider({ children }) {
     palette: {
       primary: {
         main: "#f44336",
-        color0: "black",
-        color1: "white",
-        color2: "#2196F3",
-        color3: "#f1f1f1",
+        black: "black",
+        white: "white",
+        gray: "#f1f1f1",
+        red: "#f44336",
+        blue: "#2196F3",
+        gray2: "#009688",
+        orange: "#ff9800",
+        green: "#4CAF50",
       },
     },
   });

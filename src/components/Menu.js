@@ -12,7 +12,7 @@ export default function Menu() {
         width: "300px",
         height: "100%",
         overflow: "scroll",
-        backgroundColor: "primary.color1",
+        backgroundColor: "primary.white",
         display: { md: "flex", xs: "none" },
       }}
     >
