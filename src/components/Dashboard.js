@@ -8,25 +8,25 @@ export default function Dashboard() {
       <span>My Dashboard</span>
       <Grid container spacing={2}>
         <Grid
-          size={{ xs: 12, md: 3 }}
+          size={{ xs: 12, sm: 3 }}
           sx={{ border: "1px solid black", height: "138px" }}
         >
           Message
         </Grid>
         <Grid
-          size={{ xs: 12, md: 3 }}
+          size={{ xs: 12, sm: 3 }}
           sx={{ border: "1px solid black", height: "138px" }}
         >
           Views
         </Grid>
         <Grid
-          size={{ xs: 12, md: 3 }}
+          size={{ xs: 12, sm: 3 }}
           sx={{ border: "1px solid black", height: "138px" }}
         >
           Share
         </Grid>
         <Grid
-          size={{ xs: 12, md: 3 }}
+          size={{ xs: 12, sm: 3 }}
           sx={{ border: "1px solid black", height: "138px" }}
         >
           User

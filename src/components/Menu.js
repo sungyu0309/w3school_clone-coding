@@ -13,7 +13,7 @@ export default function Menu() {
         height: "100%",
         overflow: "scroll",
         backgroundColor: "primary.color1",
-        display: { lg: "flex", xs: "none" },
+        display: { md: "flex", xs: "none" },
       }}
     >
       <Grid
