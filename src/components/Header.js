@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 import React from "react";
-import { Horizontal } from "../../style/CommunalStyle";
+import { Horizontal } from "../style/CommunalStyle";
 
 export default function Header() {
   return (

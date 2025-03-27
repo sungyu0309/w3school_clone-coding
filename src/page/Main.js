@@ -1,8 +1,8 @@
 import React from "react";
-import Menu from "../components/Menu/Menu";
+import Menu from "../components/Menu";
 import { Horizontal, Vertical } from "../style/CommunalStyle";
-import Header from "../components/Header/Header";
-import Dashboard from "../components/Dashboard/Dashboard";
+import Header from "../components/Header";
+import Dashboard from "../components/Dashboard";
 
 function Main() {
   return (

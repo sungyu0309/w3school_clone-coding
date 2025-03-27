@@ -1,5 +1,5 @@
 import React from "react";
-import { Horizontal, Vertical } from "../../style/CommunalStyle";
+import { Vertical } from "../style/CommunalStyle";
 import { Grid2 as Grid } from "@mui/material";
 
 export default function Dashboard() {

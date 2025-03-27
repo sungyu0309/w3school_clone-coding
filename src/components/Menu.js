@@ -1,7 +1,7 @@
 import { Box, Grid2 as Grid } from "@mui/material";
 import React from "react";
-import Mike from "../../img/avatar2.png";
-import { Horizontal, Vertical } from "../../style/CommunalStyle";
+import Mike from "../img/avatar2.png";
+import { Horizontal, Vertical } from "../style/CommunalStyle";
 import styled from "styled-components";
 import Category from "./Category";
 
