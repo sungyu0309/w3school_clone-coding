@@ -1,4 +1,4 @@
-import { Box, Grid2 as Grid } from "@mui/material";
+import { Box, Grid2 as Grid, Typography } from "@mui/material";
 import React from "react";
 import Mike from "../img/avatar2.png";
 import { Horizontal, Vertical } from "../style/CommunalStyle";
@@ -45,7 +45,9 @@ export default function Menu() {
           </Vertical>
         </Grid>
       </Grid>
-      <span>DashBoard</span>
+      <Typography variant="h5" sx={{ padding: "0 16px" }}>
+        Dashboard
+      </Typography>
       <Category icon="fa fa-users fa-fw" category="Overview" />
       <Category icon="fa fa-eye fa-fw" category="Views" />
       <Category icon="fa fa-users fa-fw" category="Traffic" />

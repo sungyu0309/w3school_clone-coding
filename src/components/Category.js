@@ -1,3 +1,4 @@
+import { Typography } from "@mui/material";
 import React from "react";
 import styled from "styled-components";
 
@@ -5,7 +6,7 @@ function Category({ icon, category }) {
   return (
     <Link>
       <i className={icon}></i>
-      <span>{category}</span>
+      <Typography variant="caption">{category}</Typography>
     </Link>
   );
 }

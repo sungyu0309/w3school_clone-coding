@@ -1,11 +1,11 @@
 import React from "react";
 import { Vertical } from "../style/CommunalStyle";
-import { Grid2 as Grid } from "@mui/material";
+import { Grid2 as Grid, Typography } from "@mui/material";
 
 export default function Dashboard() {
   return (
     <Vertical>
-      <span>My Dashboard</span>
+      <Typography variant="h5">My Dashboard</Typography>
       <Grid container spacing={2}>
         <Grid
           size={{ xs: 12, sm: 3 }}

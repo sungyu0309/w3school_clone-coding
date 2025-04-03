@@ -2,23 +2,13 @@ import { createTheme, CssBaseline } from "@mui/material";
 import { ThemeProvider as MUIThemeProvider } from "@mui/material/styles";
 import GlobalStyles from "../style/globalStyle";
 import React from "react";
+import typography from "./typography";
+import palette from "./palete";
 
 export default function ThemeProvider({ children }) {
   const theme = createTheme({
-    palette: {
-      primary: {
-        main: "#f44336",
-        black: "black",
-        white: "white",
-        gray: "#f1f1f1",
-        red: "#f44336",
-        blue: "#2196F3",
-        gray2: "#9e9e9e",
-        orange: "#ff9800",
-        green: "#4CAF50",
-        hover: "#d3d3d3",
-      },
-    },
+    palette: palette,
+    typography,
   });
   return (
     <MUIThemeProvider theme={theme}>

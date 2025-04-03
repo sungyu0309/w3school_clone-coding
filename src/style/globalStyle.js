@@ -8,8 +8,8 @@ export default function GlobalStyle() {
         "*": {
           boxSizing: "border-box",
           // fontFamily: "Pretendard-Regular",
-          fontFamily: '"Raleway", sans-serif',
-          fontWeight: "500",
+          // fontFamily: '"Raleway", sans-serif',
+          // fontWeight: "500",
         },
         html: {
           margin: 0,
